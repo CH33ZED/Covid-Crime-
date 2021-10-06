@@ -18,19 +18,9 @@ public class analyzeReducer
  ArrayList<Integer> emp = new ArrayList<Integer>();
  emp.add(1);
  emp.add(1);
- liner.add(emp);
- liner.add(emp);
- liner.add(emp);
- liner.add(emp);
- liner.add(emp);
- liner.add(emp);
- liner.add(emp);
- liner.add(emp);
- liner.add(emp);
- liner.add(emp);
- liner.add(emp);
- liner.add(emp);
- liner.add(emp);
+ for(int a = 0; a < 12; a++){
+    liner.add(emp);
+ }
  for(Text value : values){
        String line = value.toString();
        ArrayList<String> date= new ArrayList<String>(Arrays.asList(line.split(",")));
